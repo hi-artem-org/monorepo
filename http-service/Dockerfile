@@ -13,7 +13,7 @@ FROM public.ecr.aws/docker/library/alpine:3.15
 
 RUN apk --no-cache add --upgrade nodejs~16
 
-LABEL vendor="Virtru Corporation"
+LABEL vendor="hi-artem-org"
 
 ENV APP_NAME https-service
 
